@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¿Qué escuchamos los argentinos?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Space+Mono:wght@400;700&family=Archivo:wght@700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="recorrido">
+ <div id="visor">
+  <main class="pantalla" id="pantalla">
+
+    <div class="trama" style="left:0;top:20px;width:290px;height:330px"></div>
+    <div class="bloque" style="left:100px;top:40px;width:120px;height:120px"></div>
+    <div class="trama oscura" style="left:0;top:330px;width:170px;height:130px"></div>
+    <div class="trama" style="left:320px;top:620px;width:150px;height:300px"></div>
+    <div class="bloque" style="left:0;top:960px;width:140px;height:157px"></div>
+    <div class="trama" style="left:0;top:960px;width:440px;height:157px"></div>
+    <div class="trama" style="left:1100px;top:0;width:628px;height:260px"></div>
+    <div class="trama oscura" style="left:1480px;top:480px;width:248px;height:240px"></div>
+
+    <div id="puntos"></div>
+
+    <div class="placeholder" id="ph"></div>
+    <p class="creditos" id="cr">María Victoria Plando, Juana Vigo</p>
+
+    <svg id="sol" viewBox="-500 -500 1000 1000" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs><pattern id="pt" width="7" height="7" patternUnits="userSpaceOnUse">
+        <rect width="7" height="7" fill="#F6FF2B"/><circle cx="3.5" cy="3.5" r="1.7" fill="#D7E400"/></pattern></defs>
+      <g id="rayos" fill="none" stroke="url(#pt)" stroke-linecap="round"></g>
+      <circle r="155" fill="url(#pt)"/>
+    </svg>
+
+    <h1 class="pal" id="w0">¿QUÉ</h1>
+    <h1 class="pal" id="w1">ESCUCHAMOS</h1>
+    <h1 class="pal" id="w2">LOS</h1>
+
+    <h2 id="argentinos" aria-label="ARGENTINOS"></h2>
+    <p class="sub" id="sub">Un análisis de la <b>evolución gustos musicales argentinos</b> del siglo 21</p>
+
+    <div id="ventanas"></div>
+  </main>
+
+  <div id="p2">
+   <div id="st2">
+    <div id="grid2"></div>
+    <div class="trama" style="left:100px;top:0;width:520px;height:230px"></div>
+    <div class="trama" style="left:0;top:1000px;width:620px;height:117px"></div>
+    <img id="ilus" alt="" src="img/img42.png">
+    <p id="cap1"><span>CAP 1.</span></p>
+    <h2 id="tit2">UN AURICULAR<br>PARA CADA UNO</h2>
+    <div id="sc3">
+     <span class="gl" id="g0" style="left:183px;top:40px">✦</span>
+     <span class="gl" id="g1" style="left:843px;top:160px">✦</span>
+     <span class="gl" id="g2" style="left:calc(1555px + var(--ex,0px));top:30px">★</span>
+     <span class="gl" id="g3" style="left:617px;top:150px">✳</span>
+     <span class="gl" id="g4" style="left:113px;top:200px">★</span>
+     <img id="mimg" alt="" src="img/img43.png">
+     <p class="t3" id="t3">Titulo corto</p>
+     <p class="t3" id="anio">2001</p>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
